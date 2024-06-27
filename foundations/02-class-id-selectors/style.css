@@ -1,0 +1,29 @@
+/* styles.css */
+
+/* class "odd" for odd numbered elements" */
+
+.odd {
+    background-color: rgb(226, 141, 149);
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+
+/* Second Element */
+
+#second {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+
+/* Third Element */
+
+.third {
+    font-size: 24px;
+}
+
+/* Fourth Element */
+
+#forth {
+    background-color: rgb(112, 232, 112);
+    font-size: 24px;
+    font-weight: bold;
+}
