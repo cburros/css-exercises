@@ -4,11 +4,11 @@
 }
 
 .first {
-    background-color: black;
-    color: white;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
     font-weight: bold;
 }
 
 .second {
-    background-color: yellow;
+    background-color: hsla(62, 100%, 60%);
 }
