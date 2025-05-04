@@ -1,0 +1,11 @@
+/* Add Styles */
+/* 05-descendant-combinator 
+The Odin Project
+Chris Burros
+May 4, 2025 */
+
+div .text {
+    background-color: #ffff00;
+    color: #ff0000;
+    text-align: center;
+}
