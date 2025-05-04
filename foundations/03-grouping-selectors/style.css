@@ -1,14 +1,27 @@
-.btn {
+/* 03-grouping-selectors
+style.css
+The Odin Project 
+Chris Burros
+May 3, 2025 */
+
+/* Button 1 and Button 2 Styles */
+
+.btn-1, 
+.btn-2 {
     font-size: 28px;
-    font-family: Helvetica, 'Times New Roman', sans-serif;
+    font-family: Helvetica, "Times New Roman", sans-serif;
 }
 
-.first {
-    background-color: rgb(0, 0, 0);
-    color: #fff;
-    font-weight: bold;
+/* Button 1 Styles */
+
+.btn-1 {
+    background-color: #000000;
+    color: rgb(256, 256, 256);    
 }
 
-.second {
-    background-color: hsla(62, 100%, 60%);
+/* Button 2 Styles */
+
+.btn-2 {
+    background-color: hsl(57, 81%, 57%);
+    color: #000000;
 }
