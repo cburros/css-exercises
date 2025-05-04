@@ -1,29 +1,36 @@
-/* styles.css */
+/* 02-class-id-selectors 
+style.css
+for The Odin Project
+Chris Burros
+May 3, 2025 */
+
 
 /* class "odd" for odd numbered elements" */
 
 .odd {
-    background-color: rgb(226, 141, 149);
-    font-family: Verdana, 'DejaVu Sans', sans-serif;
+    background-color: #e37171;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
 /* Second Element */
 
 #second {
-    color: rgb(0, 0, 255);
+    color: rgb(56, 65, 235);
     font-size: 36px;
 }
 
 /* Third Element */
+/* Third element and forth element share font-size attribute */
 
-.third {
+.third,
+#forth {
     font-size: 24px;
 }
 
 /* Fourth Element */
 
 #forth {
-    background-color: rgb(112, 232, 112);
-    font-size: 24px;
+    background-color: hsl(119, 81%, 57%);
     font-weight: bold;
+    
 }
